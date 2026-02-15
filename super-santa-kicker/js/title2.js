@@ -73,8 +73,11 @@ var TitleState = {
 
 function gotoL1() {
   clickSound();
-  if (parent && parent.cmgGameEvent) {
-    parent.cmgGameEvent('start');
+  try {
+    if (parent && typeof parent.cmgGameEvent === 'function') {
+      parent.cmgGameEvent('start');
+    }
+  } catch (e) {
   }
   takeScreenShot();
   levl = -1;

@@ -19,7 +19,6 @@ function unlockAllLevels() {
     newState();
   }
 }
-game.load.crossOrigin = 'anonymous';
 function addFocusAndDesktopDetection() {
   game.input.onDown.add(function(e) {
     if (e.isMouse) {
@@ -33,6 +32,7 @@ function addFocusAndDesktopDetection() {
 }
 var MainState = {
   preload: function() {
+    game.load.crossOrigin = 'anonymous';
     addFocusAndDesktopDetection();
     world = this;
     this.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;

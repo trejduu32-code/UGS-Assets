@@ -8051,9 +8051,11 @@ function replayLevel() {
   launcher.visible = false;
   groups.dsp.visible = false;
   takeScreenShot();
-  if (parent && parent.cmgGameEvent) {
+  try { //this is adding a parenthese for some reason im lowk cooked
+  if (parent && typeof parent.cmgGameEvent === 'function') {
     parent.cmgGameEvent('replay', levl.toString());
   }
+  } catch (e) {
   newState();
 }
 
@@ -8432,4 +8434,4 @@ function addSprite(x, y, img, group) {
 function takeScreenShot() {
   screenShot = game.add.bitmapData(screenWidth, screenHeight);
   screenShot.draw(game.canvas, 0, 0);
-}
+}}

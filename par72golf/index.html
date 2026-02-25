@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1,user-scalable=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <link rel="apple-touch-icon" href="icon.png">
+  <meta name="description" content="Par 72 Golf" />
+
+  <title>Par 72 Golf</title>
+
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <script src="js/webaudio.js"></script>
+
+  <!-- unobfuscated
+<script src="js/gl.js"></script>
+<script src="js/noise.js"></script>
+<script src="js/golf0.js"></script>
+<script src="js/main.js"></script>
+-->
+
+  <!-- obfuscated
+-->
+  <script src="js/closure.js"></script>
+
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false;">
+
+  <!-- p72_4_responsive ad-format changed from auto to horizontal to avoid tall ads 
+ -->
+
+  <div id="panel" onclick="c('s')">
+  </div>
+
+  <div id="prompt" onclick="c('Enter')">
+  </div>
+
+  <div class="menu" id="menu">
+
+    <a onclick="c('Esc')" tabindex='1'>&#x2630;</a>
+
+    <a onclick="c('c')" tabindex='1'>Club</a>
+
+    <a class="m2" id="1" onclick="c('1')" tabindex='1'>1W-250</a>
+    <a class="m2" id="2" onclick="c('2')" tabindex='1'>2W-230</a>
+    <a class="m2" id="3" onclick="c('3')" tabindex='1'>3i-200</a>
+    <a class="m2" id="4" onclick="c('4')" tabindex='1'>4i-185</a>
+    <a class="m2" id="5" onclick="c('5')" tabindex='1'>5i-170</a>
+    <a class="m2" id="6" onclick="c('6')" tabindex='1'>6i-155</a>
+    <a class="m2" id="7" onclick="c('7')" tabindex='1'>7i-140</a>
+    <a class="m2" id="8" onclick="c('8')" tabindex='1'>8i-125</a>
+    <a class="m2" id="9" onclick="c('9')" tabindex='1'>9i-110</a>
+    <a class="m2" id="w" onclick="c('w')" tabindex='1'>PW-60</a>
+    <a class="m2" id="p" onclick="c('p')" tabindex='1'>PT-100</a>
+
+    <a onclick="c('f')" tabindex='1'>Flyover</a>
+
+    <a onclick="c('n')" tabindex='1'>New Game</a>
+    <a class="m2" id="nS" onclick="c('nS')" tabindex='1'>Solo</a>
+    <a class="m2" id="nL" onclick="c('nL')" tabindex='1'>Handoff opponent</a>
+    <a class="m2" id="nC" onclick="c('nC')" tabindex='1'>Computer opponent</a>
+    <a class="m2" id="nD" onclick="c('nD')" tabindex='1'>Demo</a>
+
+    <a onclick="c('C')" tabindex='1'>Course</a>
+    <a class="m2" id="C0" onclick="c('C0')" tabindex='1'>Sierra Pines</a>
+    <a class="m2" id="C1" onclick="c('C1')" tabindex='1'>Desert Palms</a>
+    <a class="m2" id="C2" onclick="c('C2')" tabindex='1'>Maritime Moors</a>
+    <a class="m2" id="Cr" onclick="c('Cr')" tabindex='1'>Random Hole</a>
+
+
+    <a onclick="c('P')" tabindex='1'>Player</a>
+    <a class="m2" id="M" onclick="c('M')" tabindex='1'>Male</a>
+    <a class="m2" id="F" onclick="c('F')" tabindex='1'>Female</a>
+
+    <a onclick="c('O')" tabindex='1'>Opponent</a>
+    <a class="m2" id="Om" onclick="c('Om')" tabindex='1'>Male</a>
+    <a class="m2" id="Of" onclick="c('Of')" tabindex='1'>Female</a>
+
+    <a onclick="c('b')" id="b" tabindex='1'>Pro Shop</a>
+
+    <a onclick="c('h')" tabindex='1'>Help</a>
+
+    <div id="help" class="text">
+      At the start of each shot the golfer is aiming in the general direction of the hole.
+      Refine the aim by pressing left or right until the shot is aligned.
+      <p>
+        If there is a bend in the course the hole may be out of sight to the left or right.
+        Hills can also block the view.
+        Select Flyover from the menu to fly over the course and locate the hole.
+      <p>
+        Press the round button to start the swing. The force meter will begin to fill with swing force. Press again to select swing force. If the force meter fills to the top the swing will be full force but the aim will be off.
+      <p>
+        The panel at the upper left of the screen shows the current hole number, par and stroke number, score, distance to hole, club selected, and wind speed and direction. Wind affects your shot so adjust accordingly.
+      <p>
+        A club is automatically selected based on the distance to the hole. If you would like to pick another club press the menu icon at upper right and select Club.
+      <p>
+        The second number in the club name is the range in yards with the exception of the putter PT-100 whose range is 100 feet.
+      <p>
+        The player that is farthest from the hole shoots next.
+      <p>
+        MENU
+      <p>
+        New Game - start a new game.
+      <p>
+        Course - select one of three courses or random hole.
+      <p>
+        Player - select male or female player.
+      <p>
+        Opponent - select opponent or none.
+      <p>
+        Club - select club menu.
+      <p>
+        Flyover - preview the hole from the air.
+      <p>
+        Thank you for playing Par 72 Golf.
+    </div>
+
+    <a onclick="c('a')" tabindex='1'>About</a>
+
+    <div id="about" class="text">
+      <center>
+        Par 72 Golf 4.0.0
+        <br>
+        Copyright © 2015 RESETgame
+        <br>
+        All rights reserved
+      </center>
+    </div>
+  </div>
+
+</body>
+
+</html>

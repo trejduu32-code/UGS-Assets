@@ -3494,7 +3494,7 @@ if (window["C3_Is_Supported"]) {
   const a = true;
   window["c3_runtimeInterface"] = new self.RuntimeInterface({
     useWorker: a,
-    workerMainUrl: "https://cdn.jsdelivr.net/gh/bubbls/UGS-Assets@main/speed-dash/scripts/workermain.js",
+    workerMainUrl: "https://cdn.jsdelivr.net/gh/bubbls/UGS-Assets@main/speed-dash/workermain.js",
     runtimeScriptList: ["scripts/c3main.js"],
     scriptFolder: "https://cdn.jsdelivr.net/gh/bubbls/UGS-Assets@main/speed-dash/scripts/",
     exportType: "html5"

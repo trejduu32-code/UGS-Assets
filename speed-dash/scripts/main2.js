@@ -3496,7 +3496,7 @@ if (window["C3_Is_Supported"]) {
     useWorker: a,
     workerMainUrl: "workermain.js",
     runtimeScriptList: ["scripts/c3main.js"],
-    scriptFolder: "scripts/",
+    scriptFolder: "https://cdn.jsdelivr.net/gh/bubbls/UGS-Assets@main/speed-dash/scripts/",
     exportType: "html5"
   })
 };

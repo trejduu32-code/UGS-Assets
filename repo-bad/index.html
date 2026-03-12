@@ -60,7 +60,18 @@
   </script>
   <script type="text/javascript" src="lib/runtimeData.js" onload="onRuntimeDataReady()"></script>
 </head>
+          <script>
+      window.fileMergerConfig = {
+        files: [
+          { name: 'REPO-GameYG_Web_YandexGames.data', parts: 2 },
+          { name: 'REPO-GameYG_Web_YandexGames.wasm', parts: 2 },
+        ],
+        basePath: 'bin/',
+        debug: true
+      };
+    </script>
 
+    <script src="merge.js"></script>
 <body>
   <!-- Game canvas. -->
   <div id="unity-container">

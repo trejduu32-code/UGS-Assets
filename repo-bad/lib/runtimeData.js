@@ -13,7 +13,7 @@ const runtimeData = (function() {
     buildURL: "bin",
     loaderURL: "bin/REPO-GameYG_Web_YandexGames.loader.js",
     dataURL: "bin/REPO-GameYG_Web_YandexGames.data.gz",
-    frameworkURL: "bin/REPO-GameYG_Web_YandexGames.framework.js.gz",
+    frameworkURL: "bin/REPO-GameYG_Web_YandexGames.framework.js",
     workerURL: "",
     codeURL: "bin/REPO-GameYG_Web_YandexGames.wasm.gz",
     symbolsURL: "",

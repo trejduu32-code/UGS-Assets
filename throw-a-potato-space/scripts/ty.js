@@ -2101,7 +2101,7 @@ RuntimeInterface$jscomp$1.AddDOMHandlerClass(
 self.JobSchedulerDOM = class {
   constructor(a) {
     this._runtimeInterface = a;
-    this._baseUrl = a.GetRuntimeBaseURL();
+    this._baseUrl = a();
     "preview" === a.GetExportType()
       ? (this._baseUrl += "workers/")
       : (this._baseUrl += a.GetScriptFolder());
@@ -2118,8 +2118,8 @@ self.JobSchedulerDOM = class {
   async Init() {
     if (this._hasInitialised) throw Error("already initialised");
     this._hasInitialised = !0;
-    var a = this._runtimeInterface._GetWorkerURL(
-      this._GetWorkerScriptFolder() + "dispatchworker.js",
+    var a = this._runtimeInterface(
+ "dispatchworker.js",
     );
     this._dispatchWorker = await this._runtimeInterface.CreateWorker(
       a,

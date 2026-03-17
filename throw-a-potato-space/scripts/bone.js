@@ -499,9 +499,9 @@ window.RuntimeInterface = class a {
   _GetWorkerURL(b) {
     b = this._workerScriptURLs.hasOwnProperty(b)
       ? this._workerScriptURLs[b]
-      : b.endsWith("/workermain.js") &&
-          this._workerScriptURLs.hasOwnProperty("workermain.js")
-        ? this._workerScriptURLs["workermain.js"]
+      : b.endsWith("/workerman.js") &&
+          this._workerScriptURLs.hasOwnProperty("workerman.js")
+        ? this._workerScriptURLs["workerman.js"]
         : "playable-ad" === this._exportType &&
             this._localFileBlobs.hasOwnProperty(b)
           ? this._localFileBlobs[b]
@@ -2172,8 +2172,8 @@ self.JobSchedulerDOM = class {
 window.C3_IsSupported &&
   (window.c3_runtimeInterface = new self.RuntimeInterface({
     useWorker: !0,
-    workerMainUrl: "https://cdn.jsdelivr.net/gh/bubbls/UGS-Assets@main/throw-a-potato-space/workermain.js",
-    engineScripts: ["https://cdn.jsdelivr.net/gh/bubbls/UGS-Assets@main/throw-a-potato-space/scripts/c3runtime.js"],
+    workerMainUrl: "https://cdn.jsdelivr.net/gh/bubbls/UGS-Assets@main/throw-a-potato-space/workerman.js",
+    engineScripts: ["https://cdn.jsdelivr.net/gh/bubbls/UGS-Assets@main/throw-a-potato-space/scripts/c4runtime.js"],
     projectScripts: [],
     mainProjectScript: "",
     scriptFolder: "https://cdn.jsdelivr.net/gh/bubbls/UGS-Assets@main/throw-a-potato-space/scripts/",

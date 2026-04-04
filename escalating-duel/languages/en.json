@@ -1,0 +1,282 @@
+{
+  "strings": {
+    "move_k1": "[icon=keyW][icon=keyA][icon=keyD] to move",
+    "move_g": "[icon=dpad] to move",
+    "move_k2": "[icon=keyLeft][icon=keyRight][icon=keyUp] to move",
+    "fallThrough_k1": "[icon=keyS] to fall through thin platforms",
+    "fallThrough_g": "[icon=dpadDown] to fall through thin platforms",
+    "fallThrough_k2": "[icon=keyDown] to fall through thin platforms",
+    "attack_k1": "[icon=keyF] to attack.\nPickup instantly finishes reload",
+    "attack_k2": "[icon=keyL] to attack.\nPickup instantly finishes reload",
+    "attack_g": "[icon=rightBumper] to attack.\nPickup instantly finishes reload",
+    "ready_k1": "READY",
+    "ready_k2": "READY",
+    "ready_g": "READY",
+    "uiInput": "{key=interact} : CONFIRM \n {key=move} : MOVE",
+    "gamepadOverall": "[icon=gamepad] \n [icon=padA] : CONFIRM/JUMP \n [icon=rightBumper] : SHOOT \n [icon=dpad] : MOVE",
+    "keyboard1": "[icon=keyboard] \n [icon=keyF] : CONFIRM/SHOOT \n [icon=keyW][icon=keyA][icon=keyS][icon=keyD] : MOVE",
+    "keyboard2": "[icon=keyboard] \n [icon=keyL] : CONFIRM/SHOOT \n [icon=keyUp][icon=keyLeft][icon=keyDown][icon=keyRight] : MOVE",
+    "nerfDescription": "[i]Nerfs are added to the opponents deck.",
+    "stackableDescription": "[i]Card is stackable.",
+    "tutorialOn": "TUTORIAL ON",
+    "tutorialOff": "TUTORIAL OFF",
+    "resetDefault": "RESET TO DEFAULT",
+    "back": "BACK",
+    "notInDemo": "NOT IN THE DEMO",
+    "editName": "EDIT NAME",
+    "quit": "QUIT",
+    "skin": "FACE",
+    "discord": "GIVE FEEDBACK",
+    "customizeRules": "CUSTOM RULES",
+    "credits": "CREDITS",
+    "notReady": "READY?",
+    "playVersus": "1 VERSUS 1",
+    "color": "COLOR",
+    "deck": "{pOutline}{pName} CARDS:",
+    "settings": "SETTINGS",
+    "chooses": "{pName} CHOOSES!",
+    "nextRound": "NEXT ROUND",
+    "winnerChooses": "WINNER CHOOSES",
+    "holdToReroll": "hold {key=down} to reroll, {curRerolls} left",
+    "rematch": "REMATCH",
+    "backToMenu": "BACK TO MENU",
+    "shakeOn": "CAMERA SHAKE ON",
+    "shakeOff": "CAMERA SHAKE OFF",
+    "practice": "1 VERSUS BOT",
+    "music": "MUSIC: {0}%",
+    "sfx": "SFX: {0}%",
+    "en": "ENGLISH",
+    "graphicsQuality": "RES: {0}",
+    "high": "HIGH",
+    "ultra": "ULTRA",
+    "readyCount": "READY!",
+    "playerReady": [
+      "I'M READY!",
+      "LET'S GO!",
+      "WHAT ARE YOU WAITING FOR?",
+      "READY!"
+    ],
+    "playerNotReady": [
+      "GIMME A SEC",
+      "NOT READY YET!",
+      "HOLD ON!",
+      "NOT READY!"
+    ],
+    "extendMatch": "EXTEND MATCH",
+    "set": "SET!",
+    "go": "GO!",
+    "loserChooses": "{pOutline} LOSER CHOOSES FIRST",
+    "matchpoint": "MATCHPOINT FOR {pName}!",
+    "doubleMatchpoint": "{0}DOUBLE {1}MATCHPOINT!",
+    "continue": "CONTINUE",
+    "endDemo": "[outlineBack=#ffffff][lineThickness=2]I HOPE YOU ENJOYED THE DEMO! :)\nFeedback and a positive rating is greatly appreciated!",
+    "roundWon": [
+      "{pOutline}{pName} SLAYS!",
+      "{pOutline}{pName} TAKES THE ROUND!",
+      "{pOutline}{pName} GOT AIM!"
+    ],
+    "roundWonSelf": [
+      "{pOutline}{pName} JUST CHILLED!",
+      "{pOutline}{pName} DID NOTHING!"
+    ],
+    "wins": [
+      "{pOutline}{pName} WINS!",
+      "{pOutline}{pName} SLAYS!"
+    ],
+    "winsTheGame": "{pOutline}{pName} WINS THE MATCH!",
+    "rerolls": "REROLLS: {rerolls}",
+    "noRerollsLeft": "{0} has no rerolls left",
+    "rounds": "ROUNDS: {rounds}",
+    "isConstruct": "[i]Is considered a Construct.",
+    "cards": {
+      "0": {
+        "name": "Nothing",
+        "description": "A big pile of nothing."
+      },
+      "doubleJump": {
+        "name": "Double Jump",
+        "description": "You can double jump."
+      },
+      "autoAim": {
+        "name": "Aim Bot",
+        "description": "Roughly shoot into the opponents direction."
+      },
+      "shield": {
+        "name": "Rotating Shield",
+        "description": "A rotating shield that deflects bullets."
+      },
+      "bouncingBullet": {
+        "name": "Bouncing Bullet",
+        "description": "Bullets bounces when they hit solids."
+      },
+      "splitShot": {
+        "name": "Split Shot",
+        "description": "Shoot one more bullet with a random split."
+      },
+      "fastReload": {
+        "name": "Sleight of Hand",
+        "description": "Faster reload."
+      },
+      "homing": {
+        "name": "Home, Sweet Home",
+        "description": "The bullet slightly homes towards your opponent."
+      },
+      "traveler": {
+        "name": "Traveler",
+        "description": "The bullet travels much further."
+      },
+      "sniper": {
+        "name": "Sniper",
+        "description": "The bullets fly much faster."
+      },
+      "penetration": {
+        "name": "Ghost Shot",
+        "description": "Your bullets travels through solids."
+      },
+      "salve": {
+        "name": "Burst Fire",
+        "description": "Fire two additional bullets in quick succession, but reloading takes longer."
+      },
+      "autoShoot": {
+        "name": "Stuck Trigger",
+        "description": "Your opponent is forced to shoot once reloaded."
+      },
+      "schmovement": {
+        "name": "Got Moves",
+        "description": "Faster movement."
+      },
+      "randomizer": {
+        "name": "Randomizer",
+        "description": "Your shots get a random buff applied."
+      },
+      "hugeBullets": {
+        "name": "Max Caliber",
+        "description": "Huge bullets, easier to hit the target and walls."
+      },
+      "rocketJump": {
+        "name": "Rocket Jump",
+        "description": "You additionally shoot downwards, knockback launches you upwards."
+      },
+      "badAim": {
+        "name": "Bad Aim",
+        "description": "Your opponents shots are very inaccurate."
+      },
+      "autoJump": {
+        "name": "Pogo Stick",
+        "description": "Your opponent is periodically forced to jump."
+      },
+      "moon": {
+        "name": "Moon Gravity",
+        "description": "Your opponent jumps higher and falls slower."
+      },
+      "ninjitsu": {
+        "name": "Ninjitsu",
+        "description": "Shooting teleports you to the position of your last reload."
+      },
+      "spikySkin": {
+        "name": "Spiky Skin",
+        "description": "Destroy the opponent if they touch your body, but you are slightly slower."
+      },
+      "defensiveShot": {
+        "name": "Defensive Shooting",
+        "description": "Your bullets destroy the opponents bullets."
+      },
+      "explodingBullets": {
+        "name": "Exploding Bullets",
+        "description": "Your bullets explode."
+      },
+      "lingeringBullets": {
+        "name": "Lingering Bullets",
+        "description": "Your bullets stay at the end of their path for some time."
+      },
+      "drone": {
+        "name": "Drone",
+        "description": "A [b]drone[/b] that follows you and sometimes shoots."
+      },
+      "turret": {
+        "name": "Turret",
+        "description": "Create a [b]turret[/b] at your spawn position."
+      },
+      "zeus": {
+        "name": "Zeus' Wrath",
+        "description": "Your opponent is targeted by [b]lightning strike[/b] at random intervals. \n \n ATTENTION: can hit both players."
+      },
+      "zigZag": {
+        "name": "Zig Zag Bullet",
+        "description": "Your bullets fly in a zig-zag path, making them harder to dodge."
+      },
+      "jumpSustain": {
+        "name": "Ultra Jump Sustain",
+        "description": "Keep holding jump to sustain your jump for even longer."
+      },
+      "heavyBullets": {
+        "name": "Heavy Bullets",
+        "description": "Your opponents bullets are slower and get pulled down by gravity."
+      },
+      "selfDamage": {
+        "name": "Self Damage",
+        "description": "Your opponents bullets will hurt themselves."
+      },
+      "slipperyFloor": {
+        "name": "Slippery Floor",
+        "description": "Your opponent slides on the floor."
+      },
+      "easyTarget": {
+        "name": "Easy Target",
+        "description": "Your opponent is larger."
+      },
+      "faulty": {
+        "name": "Faulty Ammo",
+        "description": "Your oppenents shots sometimes don't fire correctly, bullet still travels a small distance."
+      },
+      "concentratedReload": {
+        "name": "Concentrated Reload",
+        "description": "Reload much faster if you are standing still."
+      },
+      "steve": {
+        "name": "Steve",
+        "description": "Pressing shoot during the reload places a [b]destructible block[/b]. You can temporarily trap your opponent inside the block."
+      },
+      "engineer": {
+        "name": "Engineer",
+        "description": "Improves effectiveness of your [b]Constructs[/b]."
+      },
+      "comeback": {
+        "name": "Comeback",
+        "description": "You get various buffs if your opponent is leading, the buffs are [b]stronger the higher the point lead[/b]."
+      },
+      "disableReloadPickup": {
+        "name": "they are mine",
+        "description": "Your opponnent cannot collect reload pick-ups anymore."
+      },
+      "fasterPicker": {
+        "name": "Fast Picker",
+        "description": "Pick-ups refresh much faster if you pick them up."
+      },
+      "dash": {
+        "name": "Dash",
+        "description": "Double tap a direction to [b]dash[/b]."
+      },
+      "invertedControls": {
+        "name": "Confusion",
+        "description": "Your oppenents directional [b]controls get inverted[/b]."
+      },
+      "damocles": {
+        "name": "Damocles Sword",
+        "description": "Get a [b]sword[/b] that continously [b]flies towards the opponent[/b]."
+      },
+      "rerolls": {
+        "name": "Rerolls",
+        "description": "Get [b]+1 reroll every round[/b]."
+      },
+      "barrier": {
+        "name": "Barrier",
+        "description": "Get a temporary [b]Barrier[/b] at the start of each round."
+      },
+      "spider": {
+        "name": "Spider",
+        "description": "Move much faster while ducking."
+      }
+    }
+  }
+}

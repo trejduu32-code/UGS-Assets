@@ -1,0 +1,23 @@
+{
+  "0": {
+    "rerolls": 0,
+    "wins": 0,
+    "name": "PINK"
+  },
+  "1": {
+    "rerolls": 0,
+    "wins": 0,
+    "name": "GREEN"
+  },
+  "2": {
+    "rerolls": 0,
+    "wins": 0,
+    "name": "GREEN"
+  },
+  "3": {
+    "rerolls": 0,
+    "wins": 0,
+    "name": "GREEN"
+  },
+  "roundsToWin": 5
+}

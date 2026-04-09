@@ -1,0 +1,256 @@
+.xku5910 {
+  height: 100px;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+  border-radius: 1rem;
+  background: url(/media/modal_top_plus.webp) no-repeat 50%/cover;
+  margin-top: var(--_1tjd7xf29)
+}
+
+.xku5911 {
+  position: relative;
+  width: 108px;
+  height: 53px;
+  min-width: 108px;
+  min-height: 53px;
+  margin-right: 30px
+}
+
+.xku5912 {
+  font-size: var(--_1tjd7xf17);
+  color: var(--_1tjd7xf1)
+}
+
+.xku5910 .xku5913,
+.xku5912 {
+  font-weight: var(--_1tjd7xfz)
+}
+
+.xku5910 .xku5913 {
+  font-size: var(--_1tjd7xf16);
+  line-height: var(--_1tjd7xf1y);
+  min-width: 10rem;
+  border-radius: 32px;
+  margin-left: 30px;
+  background: white !important;
+  color: #000000 !important;
+  text-shadow: 0 1px 2px color-mix(in srgb, white 70%, black)
+}
+
+.xku5910 .xku5913:hover {
+  border-color: #000000 !important
+}
+
+@media (max-width:1366px) {
+  .xku5910 {
+    gap: 0
+  }
+
+  .xku5912 {
+    font-size: var(--_1tjd7xf17)
+  }
+}
+
+@media (max-width:360px) {
+  .xku5910 {
+    background: url(/media/modal_top_plus_mobile.webp) no-repeat 0/cover
+  }
+}
+
+@media (max-width:592px) {
+  .xku5911 {
+    margin-right: 10px
+  }
+
+  .xku5910 .xku5913 {
+    min-width: auto;
+    margin-left: 0
+  }
+}
+
+@media (max-width:1024px) {
+  .xku5912 {
+    display: none
+  }
+}
+
+.bkkyma0 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: var(--_1tjd7xf2c);
+  padding-top: var(--_1tjd7xf2c);
+  justify-content: center;
+  align-items: center
+}
+
+.bkkyma1 {
+  position: absolute;
+  top: 0;
+  width: 500px;
+  height: 540px;
+  overflow: hidden;
+  z-index: 1
+}
+
+.bkkyma2 {
+  width: 500px;
+  height: 666px
+}
+
+.bkkyma3 {
+  font-size: var(--_1tjd7xf19);
+  font-weight: var(--_1tjd7xf11)
+}
+
+.bkkyma4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--_1tjd7xf29)
+}
+
+.bkkyma5 {
+  -o-object-fit: contain;
+  object-fit: contain
+}
+
+.bkkyma6 {
+  display: flex;
+  justify-content: center;
+  padding-bottom: var(--_1tjd7xf29);
+  z-index: 2
+}
+
+.bkkyma6 .bkkyma7 {
+  width: 300px;
+  height: 40px;
+  background-color: #12B76A
+}
+
+.bkkyma8 {
+  z-index: 2
+}
+
+._159fjmr0 {
+  gap: var(--_1tjd7xf2b);
+  padding-top: var(--_1tjd7xf2b);
+  justify-content: center
+}
+
+._159fjmr0,
+._159fjmr1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+
+._159fjmr1 {
+  gap: var(--_1tjd7xf29);
+  width: 538px;
+  height: 313px
+}
+
+._159fjmr2 {
+  font-size: var(--_1tjd7xf19);
+  font-weight: var(--_1tjd7xf11)
+}
+
+._159fjmr3 {
+  display: flex;
+  justify-content: center;
+  padding-bottom: var(--_1tjd7xf29)
+}
+
+._159fjmr3 ._159fjmr4 {
+  width: 300px;
+  height: 40px;
+  background-color: #12B76A
+}
+
+@media (max-width:810px) {
+  ._159fjmr1 {
+    width: 328px;
+    height: 200px
+  }
+}
+
+._5jtc6a0 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: var(--_1tjd7xf2a);
+  max-width: 414px
+}
+
+._5jtc6a1 {
+  font-size: var(--_1tjd7xf18);
+  font-weight: var(--_1tjd7xf11);
+  color: var(--_1tjd7xfo);
+  margin-bottom: var(--_1tjd7xf29);
+  text-align: center
+}
+
+._5jtc6a2 {
+  width: 100%;
+  margin-bottom: var(--_1tjd7xf2a)
+}
+
+._5jtc6a3 {
+  margin-bottom: var(--_1tjd7xf29)
+}
+
+._5jtc6a3,
+._5jtc6a4 {
+  font-size: var(--_1tjd7xf14);
+  line-height: 24px;
+  text-align: left;
+  color: var(--_1tjd7xfo)
+}
+
+._5jtc6a4 {
+  margin-bottom: var(--_1tjd7xf2a)
+}
+
+._5jtc6a5 {
+  font-weight: var(--_1tjd7xf11)
+}
+
+._5jtc6a6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: var(--_1tjd7xf29);
+  width: 100%;
+  max-width: 320px
+}
+
+._5jtc6a7 {
+  margin-top: var(--_1tjd7xf29);
+  opacity: 0;
+  transition: opacity .2s ease-in-out
+}
+
+._5jtc6a8 {
+  opacity: 1
+}
+
+._5jtc6a9 {
+  display: none;
+  flex-grow: 0
+}
+
+._5jtc6a9._5jtc6aa {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1
+}
+
+._5jtc6ab {
+  padding-top: var(--_1tjd7xf2a)
+}

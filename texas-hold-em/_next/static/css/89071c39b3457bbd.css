@@ -1,0 +1,107 @@
+._19ebjy40 {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 2.5rem;
+  min-height: 2.5rem;
+  box-sizing: border-box;
+  border-radius: var(--_1tjd7xf2u);
+  border: var(--_1tjd7xf2y) solid;
+  white-space: nowrap;
+  padding: var(--_1tjd7xf28) var(--_1tjd7xf29);
+  min-width: 96px
+}
+
+._19ebjy43 {
+  color: var(--_1tjd7xf5u, var(--_1tjd7xfp))
+}
+
+._19ebjy44 {
+  color: var(--_1tjd7xf6e, var(--_1tjd7xfp))
+}
+
+._19ebjy46 {
+  color: var(--_1tjd7xf5s, var(--_1tjd7xfp))
+}
+
+._19ebjy41:hover ._19ebjy46 {
+  color: var(--_1tjd7xf5t, var(--_1tjd7xfp))
+}
+
+._19ebjy47 {
+  color: var(--_1tjd7xf6c, var(--_1tjd7xfp))
+}
+
+._19ebjy41:hover ._19ebjy47 {
+  color: var(--_1tjd7xf6d, var(--_1tjd7xfp))
+}
+
+._19ebjy48 {
+  margin-right: var(--_1tjd7xf2i)
+}
+
+._19ebjy48,
+._19ebjy49 {
+  min-width: 24px;
+  min-height: 24px
+}
+
+._19ebjy49 {
+  margin-left: var(--_1tjd7xf2i)
+}
+
+._19ebjy4b {
+  background-color: var(--_1tjd7xf5d, var(--_1tjd7xfg));
+  border-color: var(--_1tjd7xf5n, var(--_1tjd7xf0));
+  color: var(--_1tjd7xf5i, black)
+}
+
+._19ebjy4b:hover {
+  color: var(--_1tjd7xf5j, var(--_1tjd7xf0));
+  background-color: var(--_1tjd7xf5e)
+}
+
+._19ebjy4b:focus-visible {
+  outline: none;
+  border-color: transparent;
+  border-radius: 0;
+  box-shadow: inset 0 0 0 2px var(--_1tjd7xfq), inset 0 0 0 4px var(--_1tjd7xf1);
+  text-decoration: underline
+}
+
+._19ebjy4c {
+  background-color: var(--_1tjd7xf5x, var(--_1tjd7xfl));
+  border-color: var(--_1tjd7xf67, var(--_1tjd7xfl));
+  color: var(--_1tjd7xf62, black)
+}
+
+._19ebjy4c:hover {
+  color: var(--_1tjd7xf63, var(--_1tjd7xfg));
+  background-color: var(--_1tjd7xf5y, var(--_1tjd7xfp));
+  border-color: var(--_1tjd7xf68, var(--_1tjd7xfl))
+}
+
+._19ebjy4c:focus-visible {
+  outline: none;
+  border-radius: 0;
+  border-color: transparent;
+  box-shadow: inset 0 0 0 2px var(--_1tjd7xfq), inset 0 0 0 4px var(--_1tjd7xf1);
+  text-decoration: underline
+}
+
+._19ebjy4e {
+  background-color: var(--_1tjd7xf5f, var(--_1tjd7xfl));
+  color: var(--_1tjd7xf5k, var(--_1tjd7xf0));
+  border-color: var(--_1tjd7xf5p, #7443ff)
+}
+
+._19ebjy4f {
+  background-color: var(--_1tjd7xf5z, var(--_1tjd7xfn));
+  border-color: var(--_1tjd7xf69);
+  color: var(--_1tjd7xf64, var(--_1tjd7xfg))
+}
+
+._19ebjy4f:hover {
+  color: var(--_1tjd7xf63, var(--_1tjd7xfg));
+  background-color: var(--_1tjd7xf5y, var(--_1tjd7xfn))
+}

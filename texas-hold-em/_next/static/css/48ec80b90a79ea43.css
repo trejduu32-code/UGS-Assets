@@ -1,0 +1,27 @@
+.styles_PasswordRequirements___EjDo {
+  display: flex;
+  flex-direction: column;
+  gap: .25rem;
+  margin-bottom: 2.5rem;
+  margin-top: .25rem
+}
+
+.styles_PasswordRequirements___EjDo p {
+  font-size: .875rem !important;
+  line-height: 1.125rem !important;
+  color: #4e4b4c
+}
+
+.styles_PasswordRequirement__2kdzx {
+  display: flex;
+  gap: .5rem;
+  align-items: center
+}
+
+.styles_CheckIcon__qv25_ {
+  color: #d92d20
+}
+
+.styles_CheckIcon__qv25_.styles_isValid__O4pvJ {
+  color: #12b76a
+}

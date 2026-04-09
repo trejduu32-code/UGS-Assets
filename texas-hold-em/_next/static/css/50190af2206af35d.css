@@ -1,0 +1,142 @@
+.b2y4py0 {
+  min-width: 100%;
+  width: 100%;
+  flex: 0 0 100%;
+  height: 100%;
+  overflow: hidden
+}
+
+.b2y4py1 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px
+}
+
+.b2y4py2 {
+  width: 100%;
+  padding: 16px;
+  display: block
+}
+
+.b2y4py3 {
+  position: sticky;
+  z-index: 110;
+  top: 56px;
+  width: -moz-min-content;
+  width: min-content;
+  margin-left: 24px;
+  height: 100%;
+  max-width: 300px;
+  min-width: -moz-max-content;
+  min-width: max-content
+}
+
+.with-notification-bar .b2y4py3 {
+  top: 112px
+}
+
+.b2y4py4 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px
+}
+
+.b2y4py5 {
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  overflow: hidden;
+  padding: 8px 0;
+  min-height: 3.5rem
+}
+
+body[data-device-type=mobile] .b2y4py5,
+body[data-device-type=tablet] .b2y4py5 {
+  position: relative;
+  overflow: hidden;
+  min-height: 3.5rem
+}
+
+.b2y4py6 {
+  overflow: hidden
+}
+
+.b2y4py7 {
+  display: block;
+  flex-grow: 0
+}
+
+.b2y4py7,
+.b2y4py8 {
+  width: 300px;
+  flex-shrink: 0
+}
+
+.b2y4py9 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%
+}
+
+@media screen and (max-width:1365px) {
+  .b2y4py3 {
+    margin-left: 8px
+  }
+}
+
+@media screen and (min-width:1240px) {
+  .b2y4py0 {
+    flex: 0 0 100%
+  }
+
+  .b2y4py3 {
+    width: 300px
+  }
+}
+
+@media screen and (min-width:811px) {
+  .b2y4py2 {
+    display: none
+  }
+}
+
+@media screen and (max-width:1023px) {
+  .b2y4py7 {
+    width: -moz-fit-content;
+    width: fit-content
+  }
+}
+
+@media screen and (max-width:810px) {
+
+  .b2y4py3,
+  .b2y4py7 {
+    display: none
+  }
+}
+
+@media screen and (max-width:1024px) and (orientation:landscape) {
+  .b2y4py5 {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    min-height: 3.5rem
+  }
+}
+
+@media screen and (max-width:360px) {
+  .b2y4py5 {
+    display: none
+  }
+}
+
+@media screen and (max-width:1200px) {
+  .b2y4py8 {
+    width: 100%
+  }
+}

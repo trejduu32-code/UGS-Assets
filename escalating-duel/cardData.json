@@ -1,0 +1,105 @@
+{
+  "0": {
+    "skip": true
+  },
+  "doubleJump": {},
+  "autoAim": {},
+  "shield": {
+    "type": "construct"
+  },
+  "bouncingBullet": {},
+  "splitShot": {
+    "stackable": true
+  },
+  "fastReload": {
+    "stackable": true
+  },
+  "homing": {},
+  "traveler": {
+    "stackable": true
+  },
+  "sniper": {
+    "stackable": true
+  },
+  "penetration": {},
+  "salve": {},
+  "autoShoot": {
+    "type": "nerf"
+  },
+  "schmovement": {},
+  "randomizer": {},
+  "hugeBullets": {
+    "stackable": true
+  },
+  "rocketJump": {},
+  "badAim": {
+    "type": "nerf",
+    "stackable": true
+  },
+  "autoJump": {
+    "type": "nerf"
+  },
+  "moon": {
+    "type": "nerf"
+  },
+  "ninjitsu": {},
+  "spikySkin": {},
+  "defensiveShot": {},
+  "explodingBullets": {},
+  "lingeringBullets": {},
+  "drone": {
+    "type": "construct"
+  },
+  "turret": {
+    "type": "construct"
+  },
+  "zeus": {},
+  "zigZag": {},
+  "jumpSustain": {},
+  "heavyBullets": {
+    "type": "nerf",
+    "stackable": true
+  },
+  "selfDamage": {
+    "type": "nerf"
+  },
+  "slipperyFloor": {
+    "type": "nerf"
+  },
+  "easyTarget": {
+    "type": "nerf"
+  },
+  "faulty": {
+    "type": "nerf"
+  },
+  "rerolls": {},
+  "concentratedReload": {},
+  "steve": {},
+  "engineer": {},
+  "comeback": {
+    "excludeDemo": true
+  },
+  "disableReloadPickup": {
+    "type": "nerf",
+    "excludeDemo": true
+  },
+  "fasterPicker": {
+    "excludeDemo": true
+  },
+  "dash": {
+    "excludeDemo": true
+  },
+  "invertedControls": {
+    "type": "nerf",
+    "excludeDemo": true
+  },
+  "damocles": {
+    "excludeDemo": true
+  },
+  "barrier": {
+    "excludeDemo": true
+  },
+  "spider": {
+    "excludeDemo": true
+  }
+}

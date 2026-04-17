@@ -1,0 +1,65 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html">
+    <title>Ice fishing 3D</title>
+
+    <style>
+        html, body {
+            overflow: hidden;
+            width:100%;
+            height:100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        #game_canvas {
+            width: 100%;
+            height: 100%;
+            outline: none;
+            touch-action: none;
+        }
+    </style>
+</head>
+
+<body>
+<!--GameMonetize-->
+<script id="gamedistribution-jssdk" src=""></script>
+<script type="text/javascript">
+    window["GD_OPTIONS"] = {
+        "gameId": "2e99052b17614e8eabe273678d5cdc46",
+        "onEvent": function(event) {
+            switch (event.name) {
+                case "SDK_GAME_START":
+                    scene.pause(false);
+                    break;
+                case "SDK_GAME_PAUSE":
+                    scene.pause(true);
+                    break;
+                case "SDK_GDPR_TRACKING":
+                    break;
+                case "SDK_GDPR_TARGETING":
+                    break;
+                case "SDK_REWARDED_WATCH_COMPLETE":
+                    break;
+            }
+        },
+    };
+    (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = '';
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'gamedistribution-jssdk'));
+</script>
+<script src="lib/babylon.js"></script>
+<script src="lib/babylonjs.loaders.min.js"></script>
+<script src="lib/babylonjs.materials.min.js"></script>
+<script src="lib/babylon.gui.min.js"></script>
+<script src="lib/pep.js"></script>
+<script type="module" src="dist/main.js"></script>
+
+<canvas id="game_canvas" touch-action="none"></canvas>
+
+</body></html>

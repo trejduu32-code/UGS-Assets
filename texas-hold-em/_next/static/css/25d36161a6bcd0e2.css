@@ -1,0 +1,16 @@
+.stdi1g0 {
+  overflow: hidden;
+  border-radius: 1rem;
+  height: -moz-fit-content;
+  height: fit-content;
+  max-width: 100%;
+  margin: 0;
+  color: var(--_1tjd7xf3);
+  background-color: color-mix(in oklab, var(--_1tjd7xf2) 80%, black)
+}
+
+@media screen and (max-width:1024px) {
+  .stdi1g0 {
+    border-radius: 0
+  }
+}

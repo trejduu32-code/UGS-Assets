@@ -3,6 +3,7 @@
 
 <head>
   <title>Mindustry</title>
+  <base href="https://cdn.jsdelivr.net/gh/bubbls/UGS-Assets@main/mindustry/">
   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
   <link href="styles.css" rel="stylesheet" type="text/css">
   <script src="soundmanager2-setup.js"></script>
@@ -11,10 +12,27 @@
 
 <body onkeydown="preventUseOfDefaultKeys(event);" oncontextmenu="return false;">
   <div align="center" id="embed-html"></div>
+    <script>
+    const originalFetch = window.fetch;
+    window.fetch = function(url, options) {
+      if (url.includes('assets.txt') || url.endsWith('assets.txt')) {
+        url = 'https://cdn.jsdelivr.net/gh/bubbls/UGS-Assets@main/mindustry/assets.txt';  
+      }
+      return originalFetch(url, options); 
+    }; 
+    
+    const originalOpen = XMLHttpRequest.prototype.open;
+    XMLHttpRequest.prototype.open = function(method, url, ...rest) {
+      if (url.includes('assets.txt') || url.endsWith('assets.txt')) {
+        url = 'https://cdn.jsdelivr.net/gh/bubbls/UGS-Assets@main/mindustry/assets/assets.txt';
+      }
+      return originalOpen.call(this, method, url, ...rest);
+    };
+  </script>
   <script type="text/javascript" src="html/html.nocache.js"></script>
 </body>
 <script>
-  var keys = [27, 38, 37, 39, 40, 17, 9];
+  var keys = [27, 38, 37, 39, 40, 17, 9]; 
 
   function handleMouseDown(evt) {
     evt.preventDefault();

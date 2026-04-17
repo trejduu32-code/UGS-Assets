@@ -1,0 +1,41 @@
+._1i3xwon0 {
+  overflow: hidden;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #34D6D3;
+  border: 2px solid #c28c2b;
+  width: 163px;
+  height: 163px;
+  min-width: 163px
+}
+
+._1i3xwon1 {
+  width: 100%;
+  height: auto
+}
+
+@media screen and (max-width:600px) {
+  ._1i3xwon0 {
+    width: 100px;
+    height: 100px;
+    min-width: 100px
+  }
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) and (max-height:600px) and (orientation:landscape) {
+  ._1i3xwon0 {
+    width: 100px;
+    height: 100px;
+    min-width: 100px
+  }
+}
+
+@media screen and (min-width:768px) and (max-width:1180px) {
+  ._1i3xwon0 {
+    width: 100px;
+    height: 100px;
+    min-width: 100px
+  }
+}

@@ -1,0 +1,92 @@
+._5k75960 {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  height: auto;
+  line-height: 2rem;
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: left;
+  color: var(--_1tjd7xf3);
+  margin-top: 1.5rem
+}
+
+._5k75961 {
+  color: #000
+}
+
+._5k75962,
+._5k75963 {
+  font-weight: var(--_1tjd7xf10);
+  font-size: var(--_1tjd7xf12);
+  line-height: 1rem
+}
+
+._5k75963 {
+  color: var(--_1tjd7xf3)
+}
+
+._5k75964 {
+  color: #000
+}
+
+._5k75965 {
+  font-size: inherit;
+  line-height: inherit;
+  font-weight: inherit;
+  font-style: inherit;
+  text-align: inherit;
+  vertical-align: inherit;
+  color: inherit;
+  text-transform: capitalize;
+  text-decoration: none
+}
+
+._5k75965:hover {
+  text-decoration: underline;
+  cursor: pointer
+}
+
+._5k75965:focus-visible {
+  outline: 2px solid #1049a9;
+  text-decoration: underline
+}
+
+._5k75966 {
+  margin: 0 .5rem;
+  font-weight: var(--_1tjd7xf10);
+  font-size: var(--_1tjd7xf12);
+  line-height: 1rem
+}
+
+@media screen and (min-width:1025px) {
+  ._5k75962 {
+    line-height: inherit
+  }
+
+  ._5k75962,
+  ._5k75963 {
+    font-size: inherit;
+    font-weight: inherit;
+    font-style: inherit;
+    text-align: inherit;
+    vertical-align: inherit
+  }
+
+  ._5k75963,
+  ._5k75965 {
+    line-height: 1.5rem
+  }
+
+  ._5k75966 {
+    font-size: inherit;
+    line-height: inherit;
+    font-weight: inherit;
+    font-style: inherit;
+    text-align: inherit;
+    vertical-align: inherit;
+    color: inherit;
+    margin: 0 .75rem
+  }
+}

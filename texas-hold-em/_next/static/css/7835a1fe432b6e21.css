@@ -1,0 +1,142 @@
+._1rmp7cz0 {
+  display: inline-grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  justify-items: center;
+  gap: 1rem;
+  width: 100vw;
+  min-height: -moz-fit-content;
+  min-height: fit-content;
+  background: var(--background-color, var(--_1tjd7xfj));
+  color: var(--text-color, var(--_1tjd7xf1));
+  padding: 0 1.5rem;
+  font-weight: var(--_1tjd7xf10);
+  font-size: var(--_1tjd7xf14);
+  line-height: 1rem;
+  text-align: left;
+  pointer-events: all;
+  transition: transform .3s ease-in-out;
+  z-index: 101
+}
+
+._1rmp7cz1 {
+  height: 0;
+  min-height: 0;
+  display: none
+}
+
+._1rmp7cz2 {
+  cursor: pointer;
+  background: none;
+  height: 2rem;
+  width: 2rem
+}
+
+._1rmp7cz2:not(:active):focus {
+  outline: 2px solid #1049a9
+}
+
+._1rmp7cz2:not(:active):focus-visible {
+  outline: 2px solid #1049a9
+}
+
+._1rmp7cz3 {
+  color: var(--close-color, var(--_1tjd7xf1))
+}
+
+._1rmp7cz0:has(._1rmp7cz2) {
+  grid-template-columns: 3rem 1fr 3rem
+}
+
+._1rmp7cz0:has(._1rmp7cz2):before {
+  content: ""
+}
+
+._1rmp7cz4 {
+  min-width: 2rem;
+  min-height: 2rem;
+  margin-right: .5rem
+}
+
+._1rmp7cz5 {
+  color: currentColor;
+  text-decoration: underline
+}
+
+._1rmp7cz5:not(:active):focus {
+  outline: 2px solid #1049a9
+}
+
+._1rmp7cz5:not(:active):focus-visible {
+  outline: 2px solid #1049a9
+}
+
+._1rmp7cz6 {
+  margin-left: .5rem
+}
+
+._1rmp7cz6:not(:active):focus {
+  outline: 2px solid #1049a9
+}
+
+._1rmp7cz6:not(:active):focus-visible {
+  outline: 2px solid #1049a9
+}
+
+._1rmp7cz6:focus span,
+._1rmp7cz6:focus-visible span {
+  text-decoration: underline
+}
+
+._1rmp7cz8 {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  padding: .5rem 0
+}
+
+@media screen and (max-width:560px) {
+  ._1rmp7cz0 {
+    display: flex
+  }
+
+  ._1rmp7cz0:before {
+    display: none
+  }
+
+  ._1rmp7cz4 {
+    width: 1.5rem;
+    min-width: 1.5rem;
+    height: 1.5rem;
+    min-height: 1.5rem;
+    margin: auto .5rem auto auto
+  }
+
+  ._1rmp7cz6 {
+    margin: 0 auto 0 0;
+    grid-row: 2
+  }
+
+  ._1rmp7cz0:has(._1rmp7cz4) ._1rmp7cz6 {
+    grid-column: 2
+  }
+
+  ._1rmp7cz7 {
+    margin-right: auto
+  }
+
+  ._1rmp7cz8 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: .5rem
+  }
+
+  ._1rmp7cz8:has(._1rmp7cz4) {
+    grid-template-columns: min-content 1fr
+  }
+
+  ._1rmp7cz8:has(._1rmp7cz6) ._1rmp7cz4 {
+    grid-row: span 2
+  }
+}

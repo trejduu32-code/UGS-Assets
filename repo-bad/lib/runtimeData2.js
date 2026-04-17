@@ -1,0 +1,70 @@
+const runtimeData = (function() {
+
+  return {
+
+    // Basic information.
+    companyName: "DefaultCompany",
+    productName: "REPO last try",
+    productVersion: "0.1",
+    sdkVersion: "3.19.12+merge4",
+    productDescription: "",
+
+    // File references.
+    buildURL: "bin",
+    loaderURL: "bin/REPO-GameYG_Web_YandexGames.loader.js",
+    dataURL: "bin/REPO-GameYG_Web_YandexGames.data",
+    frameworkURL: "bin/REPO-GameYG_Web_YandexGames.framework.js",
+    workerURL: "",
+    codeURL: "bin/REPO-GameYG_Web_YandexGames.wasm",
+    symbolsURL: "",
+    streamingURL: "streaming",
+
+    // Visual information.
+    logoType: "LOGO_TYPE",
+    iconTextureName: "icon 256.png",
+    backgroundTextureName: "background_1280x720.png",
+
+    // Aspect ratio.
+    desktopAspectRatio: -1,
+    mobileAspectRatio: -1,
+
+    // Debug mode.
+    debugMode: false,
+    rotationLockType: "None",
+
+    // Prefs.
+    prefsContainerTags: ["json-data"],
+
+    // Platform specific scripts.
+    wrapperScript: "yandexGamesWrapper.js",
+
+    // YandexGames.
+    yandexGamesSDK: "/sdk.js",
+
+    // Yandex Ads Network.
+    yandexGameId: "",
+    yandexBannerId: "",
+    yandexInterstitialDesktopId: "",
+    yandexInterstitialMobileId: "",
+    yandexRewardedDesktopId: "",
+    yandexRewardedMobileId: "",
+
+    // GameDistribution.
+    gameDistributionId: "",
+    gameDistributionPrefix: "mirragames_",
+
+    // CrazyGames.
+    crazyGamesXSollaProjectId: "",
+
+    // Ads by Google.
+    googleAdsClient: "",
+    googleAdsChannel: "",
+    googleAdsTest: true,
+
+    // GamePush.
+    gamepushProjectId: "",
+    gamepushToken: "",
+
+  }
+
+})();

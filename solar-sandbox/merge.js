@@ -1,47 +1,70 @@
-const originalFetch = window.fetch;
+(function() {
+    'use strict';
 
-function mergeFiles(fileParts) {
-    return new Promise((resolve, reject) => {
-        let buffers = [];
+    const originalFetch = window.fetch;
+    const mergedData = {}; 
+    const pendingRequests = {}; 
 
-        function fetchPart(index) {
-            if (index >= fileParts.length) {
-                let mergedBlob = new Blob(buffers);
-                let mergedFileUrl = URL.createObjectURL(mergedBlob);
-                resolve(mergedFileUrl);
-                return;
+    window.fetch = function(url, ...args) {
+        const urlString = url.toString();
+        
+        if (urlString.endsWith("MinesweeperPlus.pck") || urlString.endsWith("MinesweeperPlus.wasm")) {
+
+            if (mergedData[urlString]) {
+                return Promise.resolve(new Response(mergedData[urlString]));
             }
-            fetch(fileParts[index]).then((response) => {
-                if (!response.ok) throw new Error("Missing part: " + fileParts[index]);
-                return response.arrayBuffer();
-            }).then((data) => {
-                buffers.push(data);
-                fetchPart(index + 1);
-            }).catch(reject);
-        }
-        fetchPart(0);
-    });
-}
 
-function getParts(file, start, end) {
-    let parts = [];
-    for (let i = start; i <= end; i++) {
-        parts.push(file + ".part" + i);
-    }
-    return parts;
-}
-Promise.all([
-    mergeFiles(getParts("index.pck", 1, 3))
-    , mergeFiles(getParts("index.wasm", 1, 2))
-]).then(([pckUrl, wasmUrl]) => {
-    window.fetch = async function (url, ...args) {
-        if (url.endsWith("index.pck")) {
-            return originalFetch(pckUrl, ...args);
-        } else if (url.endsWith("index.wasm")) {
-            return originalFetch(wasmUrl, ...args);
-        } else {
-            return originalFetch(url, ...args);
+            return new Promise((resolve) => {
+                if (!pendingRequests[urlString]) pendingRequests[urlString] = [];
+                pendingRequests[urlString].push(resolve);
+            });
         }
+        return originalFetch(url, ...args);
     };
-    window.godotRunStart();
-});
+
+    async function mergeFiles(baseFileName, start, end) {
+        const buffers = [];
+        console.log(`[Merger] Starting merge for ${baseFileName}...`);
+
+        try {
+            for (let i = start; i <= end; i++) {
+                const partName = `${baseFileName}.part${i}`;
+                const response = await originalFetch(partName);
+                
+                if (!response.ok) throw new Error(`Part ${i} missing for ${baseFileName}`);
+                
+                const data = await response.arrayBuffer();
+                buffers.push(data);
+                console.log(`[Merger] Loaded ${partName}`);
+            }
+
+            const mergedBlob = new Blob(buffers, { type: 'application/octet-stream' });
+            mergedData[baseFileName] = mergedBlob;
+
+            if (pendingRequests[baseFileName]) {
+                pendingRequests[baseFileName].forEach(resolve => {
+                    resolve(new Response(mergedBlob));
+                });
+                delete pendingRequests[baseFileName];
+            }
+
+            return mergedBlob;
+        } catch (err) {
+            console.error(`[Merger] Failed to merge ${baseFileName}:`, err);
+        }
+    }
+
+    async function init() {
+        await Promise.all([
+            mergeFiles("index.pck", 1, 3),
+            mergeFiles("index.wasm", 1, 2)
+        ]);
+
+        console.log("[Merger] All files ready. Starting Godot...");
+        if (typeof window.godotRunStart === 'function') {
+            window.godotRunStart();
+        }
+    }
+
+    init();
+})();

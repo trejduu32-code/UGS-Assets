@@ -1,0 +1,23 @@
+{
+  "roundsToWin": 5,
+  "rerolls": 2,
+  "playerCount": 2,
+  "tutorial": true,
+  "mapsDemo": [
+    "lava",
+    "escalator",
+    "elevator",
+    "destructableWalls",
+    "jumpPad",
+    "teleporter",
+    "scale",
+    "minimalism",
+    "circularSaw"
+  ],
+  "maps": [
+    "updraft",
+    "barrier",
+    "tunnels",
+    "boxed"
+  ]
+}

@@ -1,0 +1,36 @@
+.styles_iframeWrapper__uixeT {
+  display: flex;
+  max-width: 100%;
+  border-radius: .5rem;
+  overflow: hidden;
+  position: relative
+}
+
+.styles_googleAuthButton__uK3X7,
+.styles_googleButton__Dzn25 {
+  border: 1px solid #747776
+}
+
+.styles_iframeWrapper__uixeT:focus-within {
+  box-shadow: 0 0 0 2px #1049a9
+}
+
+@media (max-width:570px) {
+  .styles_iframeWrapper__uixeT iframe {
+    z-index: 1;
+    position: relative;
+    pointer-events: auto
+  }
+}
+
+._149tsne0 {
+  margin: 1rem 0
+}
+
+._149tsne1 {
+  color: inherit !important;
+  text-decoration: underline !important;
+  font-weight: 600 !important;
+  cursor: pointer;
+  padding: 0 !important
+}

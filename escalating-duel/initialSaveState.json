@@ -1,0 +1,50 @@
+{
+    "savedInVersion": "0.0.0.0",
+    "playerNames": [
+        "PINK",
+        "GREEN",
+        "ORANGE",
+        "BLUE"
+    ],
+    "skin": [
+        -1,
+        -1,
+        -1,
+        -1
+    ],
+    "playerColor": [
+        0,
+        1,
+        2,
+        3
+    ],
+    "settings": {
+        "musicVolume": 0.8,
+        "sfxVolume": 1,
+        "language": "en",
+        "shake": 1,
+        "graphicsQuality": "high"
+    },
+    "matchSettings": {
+        "roundsToWin": 5,
+        "rerolls": 2,
+        "tutorial": true,
+        "mapsDemo": [
+            "lava",
+            "escalator",
+            "elevator",
+            "destructableWalls",
+            "jumpPad",
+            "teleporter",
+            "scale",
+            "minimalism",
+            "circularSaw"
+        ],
+        "maps": [
+            "updraft",
+            "barrier",
+            "tunnels",
+            "boxed"
+        ]
+    }
+}

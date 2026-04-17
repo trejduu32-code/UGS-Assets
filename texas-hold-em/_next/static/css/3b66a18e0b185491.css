@@ -1,0 +1,174 @@
+.form_styles_Root__kJeAu {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: space-between;
+  align-items: center
+}
+
+.form_styles_Field__VPQER {
+  width: 100%
+}
+
+.form_styles_Label__WBFSK {
+  display: block;
+  height: 1.5rem;
+  line-height: 1.5rem !important;
+  margin-bottom: .25rem
+}
+
+.form_styles_Message__MaRTe {
+  font-size: 13px;
+  color: black;
+  opacity: .8
+}
+
+.form_styles_Input__KHhPi {
+  all: unset;
+  box-sizing: border-box;
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #000000;
+  border: 2px solid #d1d0d0;
+  padding: .5rem 1rem;
+  height: 2.5rem;
+  border-radius: .5rem;
+  font-size: 1rem
+}
+
+.form_styles_Input__KHhPi:focus {
+  border-color: #1049a9
+}
+
+.form_styles_Clicked__Qe9fJ:focus,
+.form_styles_Label__WBFSK.form_styles_Clicked__Qe9fJ~.form_styles_Input__KHhPi:focus {
+  border-color: #d1d0d0
+}
+
+.form_styles_Input__KHhPi:disabled {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  pointer-events: none
+}
+
+.form_styles_Input__KHhPi.form_styles_WithIcon__DHSfA {
+  padding-right: 2.5rem
+}
+
+.form_styles_Field__VPQER.form_styles_Invalid__H6LiR .form_styles_Input__KHhPi {
+  border-color: #d92d20
+}
+
+.form_styles_KeepAliveContainer__QHWxO {
+  display: none;
+  flex-grow: 0
+}
+
+.form_styles_AuthStepsContainer__6KDak {
+  max-width: 440px;
+  min-width: 440px
+}
+
+.form_styles_Active__0ZZVd,
+.form_styles_Reward__U4OOu {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1
+}
+
+.form_styles_BackButton__8S4a5 {
+  position: absolute !important;
+  top: 1.5rem;
+  left: -3rem;
+  height: 2.5rem;
+  padding: 0;
+  color: #4e4b4c;
+  --button-cta-text-color: #656263 !important;
+  text-decoration: none !important;
+
+  @media (max-width:614px) {
+    top: 1rem;
+    left: 1rem
+  }
+}
+
+.form_styles_BackButton__8S4a5.form_styles_Shop__p74jh {
+  top: 0;
+  left: 1.25rem
+}
+
+.form_styles_BackButton__8S4a5:before {
+  display: inline-block;
+  margin-right: 0;
+  content: url(/media/arrows/chevron-left.svg);
+  width: 24px;
+  height: 24px;
+  opacity: .6
+}
+
+.form_styles_BackButton__8S4a5:focus-visible {
+  outline: 2px solid #1049a9
+}
+
+.form_styles_ErrorMargin__e2qF6 {
+  margin: 1rem 0
+}
+
+@media (max-width:1024px) {
+  .form_styles_Active__0ZZVd {
+    width: 400px;
+    max-width: 100%
+  }
+
+  .form_styles_AuthStepsContainer__6KDak {
+    min-width: auto
+  }
+}
+
+@media (max-width:768px) {
+  .form_styles_BackButton__8S4a5.form_styles_Shop__p74jh {
+    position: unset !important;
+    padding-left: 0
+  }
+}
+
+@media (max-width:613px) {
+  .form_styles_Root__kJeAu {
+    justify-content: flex-start
+  }
+}
+
+.styles_PasswordField___Ksl5 {
+  position: relative
+}
+
+.styles_PasswordField___Ksl5,
+.styles_PasswordRequirements__K5dzt {
+  margin-bottom: 1rem
+}
+
+.styles_FieldInputWrapper__9mLi0 {
+  position: relative
+}
+
+.styles_WithMarginBottom__F89nJ {
+  margin-bottom: 1rem
+}
+
+.styles_FieldInputIconImage__yEpGj {
+  cursor: pointer;
+  opacity: .4;
+  position: absolute;
+  right: .5rem;
+  top: .5rem
+}
+
+.styles_PasswordField___Ksl5 input::-ms-clear,
+.styles_PasswordField___Ksl5 input::-ms-reveal {
+  display: none
+}

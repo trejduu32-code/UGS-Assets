@@ -1,0 +1,157 @@
+.cnupor0 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden
+}
+
+.cnupor0:has(:focus-visible) {
+  text-decoration: none !important;
+  box-shadow: 0 0 0 2px var(--_1tjd7xfq);
+  background-color: transparent
+}
+
+.cnupor1 {
+  font-size: var(--_1tjd7xf16) !important;
+  line-height: var(--_1tjd7xf1x) !important;
+  font-weight: var(--_1tjd7xf10) !important;
+  border: 0 !important
+}
+
+.cnupor0:has(:focus-visible) .cnupor1 {
+  text-decoration: none !important
+}
+
+@media (max-width:613px) {
+  .cnupor0 {
+    margin-top: auto
+  }
+}
+
+.styles_SignInUpTitle__0JY_o {
+  margin-bottom: 1rem;
+
+  @media (max-width:1024px) {
+    font-size: 1.5rem !important
+  }
+}
+
+.styles_SignInUpDescription__sViHo {
+  margin-bottom: 2.5rem
+}
+
+.styles_DescriptionItem__8jYYc {
+  display: flex;
+  gap: .5rem
+}
+
+.styles_bold__iWopv {
+  font-weight: 600 !important
+}
+
+.styles_SocialLogins__u2R83 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  overflow: hidden
+}
+
+.styles_SocialLogins__u2R83>iframe {
+  width: 100%;
+  max-width: 100%
+}
+
+.styles_SocialLogins__u2R83>iframe[title*=facebook] {
+  min-width: -moz-fit-content;
+  min-width: fit-content;
+  border-radius: .5rem;
+  background: #1877f2
+}
+
+.styles_NotificationMargin__dBXb3 {
+  margin-bottom: 1.5rem
+}
+
+@media (max-width:613px) and (orientation:portrait) {
+  .styles_SocialLogins__u2R83 {
+    max-width: 100%;
+    overflow-x: hidden;
+    position: relative
+  }
+
+  .styles_SocialLogins__u2R83>iframe {
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%)
+  }
+
+  .styles_SocialLogins__u2R83>iframe[title*=facebook] {
+    left: -50%;
+    transform: translate(50%);
+    min-width: auto
+  }
+}
+
+.styles_EmailField__BnPkL {
+  flex: 1 0;
+  max-width: 400px;
+  margin-bottom: 2.5rem
+}
+
+.styles_ContinueButtonWrapper___yC9e {
+  margin-bottom: 1.5rem
+}
+
+@media (max-width:592px) {
+  .styles_ContinueButtonWrapper___yC9e {
+    margin-bottom: 1rem
+  }
+}
+
+.styles_SignInPasswordTitle__LLqbZ {
+  margin-bottom: .25rem;
+
+  @media (max-width:1024px) {
+    font-size: 1.5rem !important
+  }
+}
+
+.styles_SignInPasswordDescription__W0Vxi,
+.styles_SignInPasswordForm__Zlw7J [class*=PasswordField] {
+  margin-bottom: 1rem
+}
+
+.styles_SignInPasswordForm__Zlw7J .styles_ForgotPasswordButtonWrapper__LL6VU {
+  margin-bottom: 1.5rem
+}
+
+.styles_ForgotPasswordButtonWrapper__LL6VU {
+  align-self: flex-start;
+  height: 1.5rem;
+  flex: 1 0
+}
+
+.styles_ForgotPasswordButtonWrapper__LL6VU button,
+.styles_ForgotPasswordButtonWrapper__LL6VU p.button-content {
+  color: #1049a9 !important;
+  font-weight: 600 !important;
+  text-decoration: underline;
+  border: 0;
+  padding: 0 !important;
+  height: 1.5rem !important
+}
+
+.styles_ContinueButtonWrapper__BP0OM {
+  margin-bottom: 1.5rem
+}
+
+@media (max-width:592px) {
+  .styles_ContinueButtonWrapper__BP0OM {
+    margin-bottom: 1rem
+  }
+}

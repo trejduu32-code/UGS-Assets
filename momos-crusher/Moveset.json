@@ -1,0 +1,400 @@
+{
+    "c2array": true,
+    "size": [
+        6,
+        21,
+        1
+    ],
+    "data": [
+        [
+            [
+                "Personajes"
+            ],
+            [
+                "Amogus"
+            ],
+            [
+                "Toy Chica"
+            ],
+            [
+                "CTM"
+            ],
+            [
+                "La Grasa"
+            ],
+            [
+                "Smurf Cat"
+            ],
+            [
+                "Doomentio"
+            ],
+            [
+                "Don Pollo"
+            ],
+            [
+                "FITH"
+            ],
+            [
+                "Floppa"
+            ],
+            [
+                "Object Guy"
+            ],
+            [
+                "Neko Arc"
+            ],
+            [
+                "Trollface"
+            ],
+            [
+                "Sans"
+            ],
+            [
+                "Pepe Frog"
+            ],
+            [
+                "Nyan Cat"
+            ],
+            [
+                "Sr. Pelo"
+            ],
+            [
+                "Purple Guy"
+            ],
+            [
+                "Catgamer"
+            ],
+            [
+                "Tralalero"
+            ],
+            [
+                "Crawly"
+            ]
+        ],
+        [
+            [
+                "UpB"
+            ],
+            [
+                "Trampilla|Escabullete en una trampilla para ser teletransportado mas arriba."
+            ],
+            [
+                "Estatica|Genera estatica que te teletransporta mas arriba."
+            ],
+            [
+                "Inflacion|Infla un chicle gigante para volar por un periodo de tiempo."
+            ],
+            [
+                "Lanzamiento|Lanzate como eso tilin para llegar a mayor altura."
+            ],
+            [
+                "Hongos|Rebota sobre hongos en el aire para llegar a mayorrs alturas."
+            ],
+            [
+                "Colchon de Ocio|Rebota con un colchon para llegar a mayores alturas."
+            ],
+            [
+                "Polla|Vuela usando una polla para planear y llegar a mayor altitud."
+            ],
+            [
+                "Araña|Lanzate con mucha velocidad hacia arriba usando el vehiculo de araña."
+            ],
+            [
+                "Globo/Alas|Vuela con un globo que se destruye con el tiempo, La mejora vuela con unas alas a mucha velocidad."
+            ],
+            [
+                "Gato Dron|Vuela con el gato dron para llegar a una gran altura en poco tiempo."
+            ],
+            [
+                "Impulso Cohete|Cambia tus piernas por un propulsor e impulsate por un corto periodo hacia arriba."
+            ],
+            [
+                "Agua y Aceite|Bañate en aceite para que la proxima vez que uses el especial ganes un impulso, ademas de hacer tus saltos mas altos."
+            ],
+            [
+                "Alma|Conviertete en un alma para moverte en un area por un corto tiempo."
+            ],
+            [
+                "Gorrito|Salta hacia arriba con un gorrito con helice, tiene poco alcance pero es casi instantaneo."
+            ],
+            [
+                "Burbuja|Envuelvete en una burbuja e impulsate rapidamente para marcar distancia."
+            ],
+            [
+                "Reimucoptero|Llama a reimu para que te impulse en forma vertical, al moverte en otra direccion vas a ir descendiendo lentamente."
+            ],
+            [
+                "Balloon Boy|Usa a balloon boy para impulsarte hacia arriba, si mueves hacia los lados se cancela instantaneamente, hace daño en el trayecto."
+            ],
+            [
+                "Explosion|Genera una explosion repentina que te lanza hacia arriba, puedes moverte libremente en el impulso."
+            ],
+            [
+                "Olas|Impulsate con una serie de olas para llegar hacia arriba, tiene poco alcance pero mucha velocidad."
+            ],
+            [
+                "Bola Magica|Crawly se convierte en una bola y es impulsado hacia arriba de una manera fuerte."
+            ]
+        ],
+        [
+            [
+                "SideB"
+            ],
+            [
+                "Circulo|Lanza un circulo de enfoque, deja de presionar la combinacion para que haga daño."
+            ],
+            [
+                "Jumpscare|Lanzate contra los rivales con un susto aterrador."
+            ],
+            [
+                "Chicle|Lanza un proyectil de chicle que inflige daño."
+            ],
+            [
+                "Tilinazo|Lanzate contra los rivales usando a tilin."
+            ],
+            [
+                "Hoja|Aprovecha la hoja para empujar enemigos en el suelo o planear en el aire."
+            ],
+            [
+                "Nostrafort|Lanza un ataque con forma de torre para infligir daño y empujar a los enemigos."
+            ],
+            [
+                "Carro|Impulsate con tu carro para hacer mucho daño, se desgasta cuando no tienes tu medidor con pollos."
+            ],
+            [
+                "Nave|Desplazate de manera lateral usando la nave, haces daño mientras te mueves."
+            ],
+            [
+                "Contruccion/Caña|Construye una pared de muros para atrapar a tus enemigos e infligir daño, La mejora lanza una caña de pescar para atrearlos."
+            ],
+            [
+                "Terreneitor|Monta el terreneitor para embestir a tus enemigos, usa el boton de salto para salir y dejar al terreneitor como proyectil."
+            ],
+            [
+                "Misil Neko|Vuelvete el proyectil e inflige daño a los rivales mientras te mueves, muevete hacia abajo para cancelar."
+            ],
+            [
+                "Iman|Lanza un iman para que se pegue a un enemigo, vuelve a usar el especial para lanzarte contra el."
+            ],
+            [
+                "Mortadela|Lanza una mortadela que cuando la agarra un enemigo llega un gaster blaster que inflige daño perforante."
+            ],
+            [
+                "Transporte Anfibio|Saca tu alma de tu cuerpo y muevete libremente por un corto tiempo, al acabarse te teletransportas al lugar donde estaba tu alma y hace daño de llegada."
+            ],
+            [
+                "Cohete|Muevete en forma de cohete usando la cruzeta, presiona el boton b para cancelar."
+            ],
+            [
+                "Pelo Peluche|Lanza un pelo peluche que se acerca el enemigo, al dejar de presionar el boton b gira en forma de circulo y desciende."
+            ],
+            [
+                "Puppet|Lanza un regalo, si lo toca un enemigo sale puppet a asustar a los enemigos, haciendo daño y empujandolos fuertemente."
+            ],
+            [
+                "Proyectil un poco realista|Lanza un proyectil realista que hace un daño potente a los enemigos."
+            ],
+            [
+                "Dash Acuatico|Conviertete en una masa de agua y lanzate para infligir daño a los rivales y lanzarlos hacia los lados."
+            ],
+            [
+                "Carrito de Super|El camarografo te sube a un carrito de super y chocas con los enemigos de una manera potente, salta del carro para parar de manejarlo."
+            ]
+        ],
+        [
+            [
+                "DownB"
+            ],
+            [
+                "Twerk Sus|Mueve tu trasero manteniendo la combinación de botones para hacer daño."
+            ],
+            [
+                "Deimos|Utiliza a Deimos para reflectar proyectiles."
+            ],
+            [
+                "Pisoton|Lanza un pisoton que genera una onda rosa que congela a los enemigos."
+            ],
+            [
+                "Cigarro|Lanza humo de tu cigarro que se pega a los oponentes e inflige daño con el tiempo."
+            ],
+            [
+                "We Live|Mejora tus estadisticas para ser eficiente en combate, (nose)"
+            ],
+            [
+                "Oveja|Utiliza al bully de bullies para reflejar daño de proyectiles."
+            ],
+            [
+                "Salsa y Picante|Bebe una salsa picante para tener una mejora en tus estadisticas por unos segundos."
+            ],
+            [
+                "Wave|Baja a mucha velocidad usando el vehiculo de Wave, haces daño mientras te desplazas."
+            ],
+            [
+                "Mejoras|Abre tu computador para gestionar tus mejoras, mueve la cruzeta para elegir la mejora y suelta el boton b para comprarla."
+            ],
+            [
+                "Pensamientos|Elige entre una botella de agua, una coca cola y el grimace shake para tu especial neutral."
+            ],
+            [
+                "Caos|Usa este especial y sucedera un efecto aleatoreo que causa caos en la arena o a ti mismo."
+            ],
+            [
+                "Bocina|Carga una bocina, mientras mas mantengas el especial mas daño y area tendra."
+            ],
+            [
+                "Caja de Texto|Genera una caja de texto que sera una plataforma temporal por un tiempo."
+            ],
+            [
+                "Una roca con cara de roca|Lanza una roca con tu cara que hace mucho daño a los enemigos, tarda en aparecer."
+            ],
+            [
+                "Doble Iman|Alterna entre un iman que aleja a los enemigos y otro que los atrae."
+            ],
+            [
+                "Regalo Misterioso|Abre una interfaz para seleccionar uno de cinco regalos misteriosos, moviendo con las flechas direccionales."
+            ],
+            [
+                "Danza|Baila una danza similar a la del among us, esta es mas potente pero hay mas delay entre ataque."
+            ],
+            [
+                "Portales|Lanza un portal, al agregar dos puedes teletransportate entre ellos, cuando uses de nuevo el portal, el mas antiguo desaparece."
+            ],
+            [
+                "Caida acuatica|Baja rapidamente para impactar con un enemigo, si lo haces genera mucho daño y los lanza hacia arriba."
+            ],
+            [
+                "Crowling Attack|Baja de manera repentina hacia el piso, si chocas con un enemigo le haces mucho daño y lo impulsas hacia arriba."
+            ]
+        ],
+        [
+            [
+                "NeutralB"
+            ],
+            [
+                "Objetos Sospechosos|Lanza proyectiles aleatorios para infligir daño de diferentes maneras."
+            ],
+            [
+                "Cupcake|Lanza a Carl para que muerda a los rivales como un proyectil."
+            ],
+            [
+                "Globo|Infla un globo de chicle para atrapar a los rivales y lanzarlos por los aires."
+            ],
+            [
+                "Globo de Texto|Lanza un globo de texto que rebota por las paredes para infligir daños."
+            ],
+            [
+                "Caracol|Lanza un caracol que inflige daño a los rivales con una trayectoria en forma de parabola."
+            ],
+            [
+                "Palmada Aria|Carga tu palmada aria para hacer una palmafa con gran potencia, muevete a los lados minetras cargas para lanzar la palmada."
+            ],
+            [
+                "Pollomerang|Lanza un bumerang de pollo para hacer daño a los rivales, hace menos daño si tienes el medidor vacio."
+            ],
+            [
+                "Fuego en mi Hoyo|Lanza una version en miniatura de ti mismo a mucha velocidad, se puede spamear."
+            ],
+            [
+                "Baller/Lanzacohetes|Lanza una bola junto a baller para infligir daño usandolo como proyectil, la mejora lanza un misil que hace un daño excesivo."
+            ],
+            [
+                "Bebestibles|Lanza el bebestible que escogiste como un proyectil, cada uno tiene un efecto misterioso."
+            ],
+            [
+                "Mañoso|Es un parry que te eleva, ideal para cuando el rival trata de regresar a plataforma"
+            ],
+            [
+                "Modo Void|Manten el especial un rato para entrar en modo void y tener una mejora en estadisticas."
+            ],
+            [
+                "Hueso azul|Lanza huesos azules, si le llegan a un rival y se esta moviendo inflige daño."
+            ],
+            [
+                "Bits|Lanza bits que rebotan en la arena y hacen daño a los enemigos, tiene poco cooldown entre usos."
+            ],
+            [
+                "Super Nyan|Selecciona una direccion y lanzate de forma rapida a los enemigos, haciendo daño en el trayecto."
+            ],
+            [
+                "Pelo fetito|Lanza un pelo fetito que se engancha a los enemigos y ocasiona daño con el tiempo."
+            ],
+            [
+                "Alma errante|Usa un alma que ataca a los enemigos, si mueves en una direccion especifica, lanzas una botella, a lefty o a la propia alma para que ataque con su cuchillo."
+            ],
+            [
+                "Pingapuño|Carga un puño ejecutado por Pinga a Xoby, cuando lo sueltas hace demasiado daño y carga la barra de Pinga a Xoby."
+            ],
+            [
+                "Mordida|Ponte a morder en tu zona, si hay un enemigo cerca lo atrapa y hace daño con el paso del tiempo."
+            ],
+            [
+                "Red|Sientate en una nube, el camarografo atrapa a su oponente mas cercano para que quede inmovil unos segundos."
+            ]
+        ],
+        [
+            [
+                "Pasiva"
+            ],
+            [
+                "NA"
+            ],
+            [
+                "NA"
+            ],
+            [
+                "NA"
+            ],
+            [
+                "NA"
+            ],
+            [
+                "NA"
+            ],
+            [
+                "Medidor Ario|Este medidor determina cuanto daño haces con la palmada aria, al usar este ataque se reinicia y se puede volver a cargar las veces que quieras."
+            ],
+            [
+                "Pollometro|Empiezas con un stock de pollos, tus especiales hacen mas daño mientras la barra esta llena, pero mientras uses especiales se ira vaciando, se reestablece cuando mueres."
+            ],
+            [
+                "NA"
+            ],
+            [
+                "Dinero|Cada vez que golpeas a los enemigos sueltan monedas que puedes recoger, esas monedas se acumulan y puedes comprar las mejoras con esas monedas si usas el especial de mejoras."
+            ],
+            [
+                "Bebestibles|Cada bebestible que tires tiene municion, al gastarse tienes que esperar unos segundos para recargarlo completamente."
+            ],
+            [
+                "NA"
+            ],
+            [
+                "NA"
+            ],
+            [
+                "ModoMortadela|Ataca para cargar la barra del modo mortadela, cuando se completa la barra se desgasta lentamente, pero tus estadisticas aumentan en ese tiempo, cuando se acaba la barra, Sans se cansa y es mas lento por unos segundos."
+            ],
+            [
+                ""
+            ],
+            [
+                "NA"
+            ],
+            [
+                "Regalos Misteriosos|Iman: Atrae a tus enemigos, Queso: hace mucho daño en corto tiempo, Gnomo: no hace nada, Calabaza: Hace bailar a todos y evita usar ataques, Bombita: Hace mucho daño en area."
+            ],
+            [
+                "Springtrap|Al alcanzar 120 puntos de daño, Purple guy se transformara en Springtrap, aumentando su daño y defensa significativamente"
+            ],
+            [
+                "Pinga A Xoby| Si conectas el Neutral 4 Veces crearas una copia con la apariencia de Pinga a Xoby, que tendra tus mismos ataques y poder"
+            ],
+            [
+                ""
+            ],
+            [
+                ""
+            ]
+        ]
+    ]
+}

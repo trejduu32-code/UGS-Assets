@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  font: 100% sans-serif;
+  /* was 125% */
+  /* font-weight: bold; */
+  text-shadow: 2px 2px black;
+  line-height: 130%;
+  color: white;
+  background: black;
+  -webkit-user-select: none;
+  /* prevent ios select of menu entries */
+}
+
+#panel {
+  display: none;
+  background: #444;
+  position: absolute;
+  font-style: italic;
+  /* font-weight: bold; */
+  padding: 8px;
+  opacity: 0.6;
+  cursor: default;
+  top: 0px;
+  transform: scale3d(1, 1, 1);
+  /* force layer */
+}
+
+#prompt {
+  display: none;
+  margin-top: 12%;
+  text-align: center;
+  font-style: italic;
+  opacity: 0.8;
+  transform: scale3d(1, 1, 1);
+  /* force layer */
+}
+
+#prompt caption {
+  background: #444;
+  padding: 8px;
+}
+
+#prompt table {
+  background: #444;
+  margin: auto;
+}
+
+.menu {
+  display: none;
+  /* use 100% if desktop like Mac, done in load2 */
+  font: 125% sans-serif;
+  position: absolute;
+  background: #444;
+  margin: 0;
+  padding: 0;
+  top: 0px;
+  right: 0px;
+  opacity: 0.75;
+  overflow: auto;
+  max-height: 100%;
+  max-width: 400px;
+  -webkit-overflow-scrolling: touch;
+  transform: scale3d(1, 1, 1);
+  /* force layer */
+}
+
+.menu a {
+  background: #444;
+  color: #ccc;
+  cursor: pointer;
+  display: block;
+  margin: 0;
+  padding: 8px 12px;
+  /* top/bot, left/right */
+  text-decoration: none;
+  /* no underline */
+}
+
+.menu a:hover {
+  background: #2580a2;
+  color: #fff;
+  padding-bottom: 8px;
+}
+
+.menu a:focus {
+  background: #2580a2;
+  color: #fff;
+  padding-bottom: 8px;
+  outline: 0px;
+  /* turns off mac halo */
+}
+
+.menu a.m2 {
+  font-style: italic;
+  background: #222;
+
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 20px;
+  padding-right: 12px;
+}
+
+.text {
+  font: 100% sans-serif;
+  background: #222;
+  color: #fff;
+  display: block;
+  margin: 0;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 20px;
+  padding-right: 8px;
+}

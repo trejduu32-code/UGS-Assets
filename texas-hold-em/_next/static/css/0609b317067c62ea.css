@@ -1,0 +1,86 @@
+.icov5c0 {
+  padding-bottom: 0
+}
+
+.icov5c1 {
+  background-color: var(--game-theme-color);
+  padding: 8px 40px 5rem
+}
+
+body:has(header) .icov5c1 {
+  padding-top: 0
+}
+
+body[data-device-type=desktop]:has(.sidebar):not(:has(.sidebar-collapsed-hidden)) .icov5c1 {
+  margin-left: .5rem
+}
+
+body[data-device-type=desktop]:has(.topbar) .icov5c1 {
+  padding-top: 8px
+}
+
+body[data-device-type=desktop]:has(.sidebar):not(:has(.topbar)) .icov5c1 {
+  padding-top: calc(var(--topbar-height) + 2.5rem)
+}
+
+body[data-device-type=desktop] .icov5c1 {
+  padding: 8px 56px 5rem 40px
+}
+
+.icov5c2 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  z-index: 1050
+}
+
+body[data-device-type=desktop]:has(.topbar) .icov5c2 {
+  padding-top: 0
+}
+
+body[data-device-type=mobile] .icov5c2,
+body[data-device-type=tablet] .icov5c2 {
+  padding: 0
+}
+
+body[data-device-type=mobile]:has(.sidebar):not(:has(.topbar)) .icov5c3 {
+  padding-top: calc(var(--topbar-height))
+}
+
+body[data-device-type=tablet]:has(.sidebar):not(:has(.topbar)) .icov5c3 {
+  padding-top: calc(var(--topbar-height))
+}
+
+.icov5c3:has(>.iframeBlockSection) {
+  min-height: 100%;
+  padding-bottom: 0
+}
+
+@media screen and (max-width:1920px) {
+  .icov5c1 {
+    padding: 8px 16px 5rem
+  }
+
+  body[data-device-type=desktop] .icov5c1 {
+    padding: 8px 24px 5rem 16px
+  }
+}
+
+@media screen and (max-width:1365px) {
+
+  .icov5c1,
+  body[data-device-type=desktop] .icov5c1 {
+    padding: 8px 8px 5rem
+  }
+}
+
+@media screen and (max-width:890px) {
+
+  .icov5c1,
+  body[data-device-type=desktop] .icov5c1 {
+    padding: 0 0 5rem
+  }
+}
